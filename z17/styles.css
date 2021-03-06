@@ -1,0 +1,88 @@
+.container {
+    margin: 30px auto;
+    width: 250px;
+    height: 188px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 13px 0px;
+}
+
+.color {
+    background: #d73ffd;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.point {
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+}
+
+.point:hover {
+    border: 3px ridge #a029f1;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.point:nth-child(1) {
+    background-color: #e0f5b4;
+}
+
+.point:nth-child(2) {
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 0px;
+}
+
+.point:nth-child(3) {
+    background-color: #a2e2ff;
+}
+
+.point:nth-child(4) {
+    background-color: #d6fd54;
+}
+
+.point:nth-child(5) {
+    background-color: #23ad23;
+}
+
+.point:nth-child(6) {
+    background-color: #663a20;
+}
+
+.point:nth-child(7) {
+    background-color: #eb1212;
+}
+
+.point:nth-child(8) {
+    background-color: #f8bd1a;
+}
+
+.point:nth-child(9) {
+    background-color: #e2a5c9;
+}
+
+.point:nth-child(10) {
+    background-color: #777777;
+}
+
+.point:nth-child(11) {
+    background-color: #5519fa;
+}
+
+.point:nth-child(12) {
+    background-color: #f852b9;
+}
+
+.point:nth-child(13) {
+    background-color: #000000;
+}
+

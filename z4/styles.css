@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5% 10%;
+    background-color: burlywood;
+    height: 100vh;
+    font-size: 20px;
+}
+
+.container {
+    border-left: 4px dotted blue;
+    padding: 0 20px;
+}

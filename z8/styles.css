@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10%;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #c2bcab;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 60vh;
+    max-width: 700px;
+}
+
+.cell {
+    width: 70%;
+}
+
+.cell.less {
+    width: 30%;
+}
+
+.red-square, .blue-rectangle, .green-rectangle, .yellow-rectangle {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.red-square {
+    background-color: red;
+    width: 90%;
+    height: 30%;
+}
+
+.blue-rectangle {
+    background-color: blue;
+    width: 90%;
+    height: 65%;
+}
+
+.green-rectangle {
+    background-color: green;
+    width: 90%;
+    height: 65%;
+}
+
+.yellow-rectangle {
+    background-color: yellow;
+    width: 90%;
+    height: 30%;
+}

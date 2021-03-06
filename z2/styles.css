@@ -1,0 +1,14 @@
+.black-block {
+    border: 5px solid black;
+    width: 600px;
+    height: 300px;
+    background: black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('task2.png');
+    height: 100vh;
+}

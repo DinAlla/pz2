@@ -1,0 +1,38 @@
+.container {
+    margin: 40px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #aba8a8;
+    height: 48px;
+    padding: 0 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    padding: 0 0 20px;
+    justify-content: center;
+    border-bottom: 3px solid #aba8a8;
+}
+
+.number {
+    text-decoration: underline;
+    font-size: 30px;
+    color: #7799f8;
+    padding: 5px;
+    width: 34px;
+    text-align: center;
+}
+
+.item:hover .number, .item.active .number {
+    background: #e68916;
+    color: white;
+    text-decoration: none;
+}
+
+.item:hover, .item.active {
+    border-bottom: 3px solid #e68916;
+}

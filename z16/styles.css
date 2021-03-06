@@ -1,0 +1,56 @@
+.container {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 0;
+    background: #5d5d5d;
+    position: relative;
+    padding: 10px;
+}
+
+
+.bordered {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.blog {
+    padding-left: 10px;
+    border-left: 1px solid;
+}
+
+.news {
+    padding-right: 10px;
+    border-right: 1px solid;
+    color: #a5a3a3;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    width: 205px;
+}
+
+.inp {
+    position: relative;
+}
+
+.inp i {
+    color: gray;
+    position: absolute;
+    top: 17%;
+    right: 2%;
+}
